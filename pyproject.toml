@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "code_quality"
+version = "0.1.0"
+description = "Configure ruff for checking code quality and formating"
+authors = ["Tumsime Kondo"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.10.*"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
