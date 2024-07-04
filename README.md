@@ -39,7 +39,7 @@ poetry run ruff check .
 
 ## Configuration
 
-The ruff configuration for this project is managed using ruff.toml file.
+The ruff configuration for this project is managed using `ruff.toml` file.
 
 ## License
 
