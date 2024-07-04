@@ -1,4 +1,4 @@
-# Set the maximum line length to 79.
+# Set the maximum line length to 100.
 line-length = 100
 
 [lint]
@@ -6,6 +6,9 @@ line-length = 100
 # overlap with the use of a formatter, like Black, but we can override this behavior by
 # explicitly adding the rule.
 extend-select = ["E501", "ANN"]
+
+# Exclude a variety of commonly ignored directories.
+exclude = []
 
 
 [lint.pydocstyle]
